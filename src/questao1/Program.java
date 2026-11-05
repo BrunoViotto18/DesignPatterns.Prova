@@ -5,6 +5,7 @@ import questao1.areas.AreaCompras;
 import questao1.areas.AreaVendas;
 
 public class Program {
+    
     public static void main(String[] args) {
         var auditoria = new AreaAuditoria();
         var compras = new AreaCompras();
@@ -44,4 +45,5 @@ public class Program {
         System.out.println();
         estoque.updateEstoque(celular, 2);
     }
+
 }
