@@ -36,9 +36,12 @@ public class Program {
         estoque.updateEstoque(tv, 6);
 
         System.out.println();
-        estoque.updateEstoque(notebook, 3);
+        estoque.updateEstoque(notebook, 4);
 
         System.out.println();
-        estoque.updateEstoque(celular, 0);
+        estoque.updateEstoque(celular, 2);
+
+        System.out.println();
+        estoque.updateEstoque(celular, 2);
     }
 }
