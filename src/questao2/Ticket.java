@@ -4,8 +4,8 @@ import questao2.perfis.Perfil;
 
 public class Ticket {
 
-    private String placa;
-    private int minutos;
+    private final String placa;
+    private final int minutos;
 
     public Perfil perfil;
 
